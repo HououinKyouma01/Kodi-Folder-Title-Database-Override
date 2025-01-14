@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.folder-title-override" name="Kodi Folder Title Database Override" version="1.0.0" provider-name="HououinKyouma01">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.service" library="resources/lib/service.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Overrides TVDB titles with folder names</summary>
+        <description>Automatically replaces scraped TVDB series titles with the folder names where the series is stored.</description>
+    </extension>
+</addon> 

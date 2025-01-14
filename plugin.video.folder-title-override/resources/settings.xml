@@ -1,0 +1,4 @@
+<settings>
+    <setting id="force_all" type="bool" label="Force Update All Titles" default="false" />
+    <setting id="immediate_refresh" type="bool" label="Immediate Library Refresh" default="true" />
+</settings> 
